@@ -13,8 +13,8 @@
   text-align: center;
   margin-bottom: 3rem;
   padding: 2rem 0.4rem;
-  background: linear-gradient(135deg, #1e3a5f 0%, #2c5aa0 100%);
-  color: white;
+  background: linear-gradient(135deg, var(--deep-green) 0%, var(--honey-brown) 100%);
+  color: var(--warm-white);
   border-radius: 12px;
   box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
 }
@@ -39,9 +39,9 @@
 
 .content-section h2 {
   font-size: 2rem;
-  color: #1e3a5f;
+  color: var(--deep-green);
   margin-bottom: 1.5rem;
-  border-bottom: 3px solid #2c5aa0;
+  border-bottom: 3px solid var(--honey-brown);
   padding-bottom: 0.5rem;
 }
 
@@ -74,8 +74,8 @@
 .step-number {
   width: 50px;
   height: 50px;
-  background: #2c5aa0;
-  color: white;
+  background: var(--honey-brown);
+  color: var(--warm-white);
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -87,7 +87,7 @@
 
 .step h3 {
   font-size: 1.3rem;
-  color: #1e3a5f;
+  color: var(--deep-green);
   margin-bottom: 1rem;
 }
 
@@ -98,15 +98,15 @@
 }
 
 .commitment li {
-  background: #e8f4f8;
+  background: var(--soft-tan);
   margin-bottom: 1rem;
   padding: 1.5rem;
   border-radius: 8px;
-  border-left: 4px solid #2c5aa0;
+  border-left: 4px solid var(--honey-brown);
 }
 
 .commitment li strong {
-  color: #1e3a5f;
+  color: var(--deep-green);
 }
 
 /* CTA Section */
@@ -119,14 +119,14 @@
 }
 
 .cta-section h2 {
-  color: #1e3a5f;
+  color: var(--deep-green);
   margin-bottom: 1rem;
 }
 
 .cta-button {
   display: inline-block;
-  background: #2c5aa0;
-  color: white;
+  background: var(--honey-brown);
+  color: var(--warm-white);
   padding: 1rem 2rem;
   text-decoration: none;
   border-radius: 8px;
@@ -137,7 +137,7 @@
 }
 
 .cta-button:hover {
-  background: #1e3a5f;
+  background: var(--deep-green);
   transform: translateY(-2px);
 }
 

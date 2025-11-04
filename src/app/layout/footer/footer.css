@@ -1,7 +1,7 @@
 /* ---------- FOOTER BASE ---------- */
 .site-footer {
-  background: linear-gradient(135deg, #0f1a2e, #2c5aa0); /* Gradient */
-  color: #ffffff;
+  background: linear-gradient(135deg, var(--deep-green), var(--honey-brown)); /* Gradient */
+  color: var(--warm-white);
   width: 100%;
   padding: 1.5rem 0rem;
   font-family: 'Marcellus', serif;

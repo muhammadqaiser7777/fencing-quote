@@ -1,5 +1,13 @@
 /* You can add global styles to this file, and also import other style files */
 
+/* Color Theme Variables */
+:root {
+  --honey-brown: #C07A3F;
+  --soft-tan: #EED5B7;
+  --deep-green: #426A5A;
+  --warm-white: #FAF3E0;
+}
+
 * {
   box-sizing: border-box;
 }
